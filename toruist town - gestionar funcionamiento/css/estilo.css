@@ -1,0 +1,154 @@
+.text-TouristTown {
+	color: #97c93e !important;
+}
+
+.btn-TouristTown {
+	background-color: #97c93e;
+	color: white;
+}
+
+/*.btn-TouristTown:hover {
+	background-color: #82ad36;
+}*/
+
+#header img {
+	width: 80px;
+}
+
+#main .carousel-inner img {
+	max-height: 85vh;
+	object-fit: cover;
+	filter: grayscale(70%);
+}
+
+#carousel {
+	position: relative;
+}
+
+#carousel .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5); 
+	color: white;
+}
+
+#carousel .overlay .container, 
+#carousel .overlay .row{
+	height: 100%;
+}
+
+.quienes-somos-img img {
+	height: 20%;
+}
+
+#footer {
+	background: linear gradient (90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer a {
+	color: white;
+}
+
+.my-footer{
+	background: #34495E;
+}
+/*------------------------------------*/
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+#quienes-somos .container-fluid {
+	background-color: #E8F8F5
+}
+
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+/*------portafolio--------->*/
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+/*-------------Precios------------------*/
+
+.panel {
+  border: 1px solid #34495E; 
+  border-radius:0;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+  border: 1px solid #58D68D;
+  background-color: #fff !important;
+  color: #1E8449;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #58D68D !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+  background-color: #fff !important;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #27AE60;
+  color: #fff;
+}
+
+/*-------------Contactenos------------------*/
+
